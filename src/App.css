@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.drop {
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+  clear: both;
+  font-weight: 400;
+  color: var(--bs-dropdown-link-color);
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  border-radius: var(--bs-dropdown-item-border-radius, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #262626;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-scroll {
+  background-color: #FFC017;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #262626;
+}
+
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.navbar-brand {
+  font-size: unset;
+  height: 3.5rem;
+}
+
+.hero {
+  height: 90vh;
+}
+.backtotop {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: gray/white;
+  color: black;
+  border-radius: 50%;
+  top: 90vh;
+  right: 10vh;
+}
+.images1 {
+  width: 50%;
+  object-fit: cover;
+}
+.images1 {
+  width: 50%;
+  object-fit: cover;
+}
+
+
+.cards {
+  color: black;
+}
+
+.card1 {
+  border: 2px solid #8064A2;
+}
+.card1:hover {
+  background-color: #8064A2;
+}
+
+.card2 {
+  border: 2px solid #77933C;
+}
+.card2:hover {
+  background-color: #77933C;
+}
+
+.card3 {
+  border: 2px solid #C0504D;
+}
+.card3:hover {
+  background-color: #C0504D;
+}
+
+.card4 {
+  border: 2px solid #0096C8;
+}
+.card4:hover {
+  background-color: #0096C8;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+
+
+.cards:hover {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.sign {
+  border-bottom-width: 4px;
+  border-bottom: 2px solid #939CA3;
+  color: #939CA3;
+  font-weight: 600;
+}
+.sign:hover {
+  border-bottom-color: #8064A2;
+  color: #8064A2;
+}
+.form-control {
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.social {
+  background: #8064A2;
+  border-radius: 50%;
+  border: 2px solid #0096C8;
+}
+
+@media screen and (max-width:990px) {
+  .form-control {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .cards {
+    margin: 20px;
+    width: 80%;
   }
 }
