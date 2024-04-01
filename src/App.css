@@ -66,6 +66,11 @@ body {
   object-fit: cover;
 }
 
+.play {
+  border: none;
+  border-radius: 40%;
+}
+
 
 .cards {
   color: black;
