@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className="col-md-3">
                         <h5 className='fw-bold'>How Do i</h5>
                         <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
-                            <li className='nav-item'><a className='nav-link' href="https://hobbycue-sign-in.netlify.app/">Sign Up</a></li>
+                            <li className='nav-item'><a className='nav-link' href="https://hobbycue-signin.netlify.app/">Sign Up</a></li>
                             <li className='nav-item'><a className='nav-link' href="/">Adding a Listing</a></li>
                             <li className='nav-item'><a className='nav-link' href="/">Claim Listing</a></li>
                             <li className='nav-item'><a className='nav-link' href="/">Post a Query</a></li>
