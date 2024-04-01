@@ -15,12 +15,7 @@ signin page link :- https://hobbycue-sign-in.netlify.app/
 
 # App.js
 
-import './App.css';
-import Footer from './components/header&footer/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './components/Login/Login';
-import Main from './components/Main/Main';
+![Add](https://github.com/vishwkant0693/hobbycue/assets/62985421/8e27f32b-941a-4c98-84cf-34cfd65a2c5e)
 
-https://github.com/vishwkant0693/hobbycue/assets/62985421/8e27f32b-941a-4c98-84cf-34cfd65a2c5e
 
 
