@@ -15,7 +15,7 @@ signin page link :- https://hobbycue-sign-in.netlify.app/
 
 # App.js
 
-![Add](https://github.com/vishwkant0693/hobbycue/assets/62985421/8e27f32b-941a-4c98-84cf-34cfd65a2c5e)
+![app](https://github.com/vishwkant0693/hobbycue/assets/62985421/c46a496a-d5e9-44c6-bcda-47091045dc41)
 
 
 
