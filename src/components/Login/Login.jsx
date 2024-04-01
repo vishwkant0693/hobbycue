@@ -138,7 +138,7 @@ const Login = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-md-8">
                             <div className="d-flex mt-3 align-items-center gap-3 p-4" style={{ background: "#CCC1DA" }}>
-                                <button><img src="./assets/play.png" alt="" /></button>
+                                <button className="play"><img src="./assets/play.png" alt="" /></button>
                                 <input type="range" class="form-range" id="Range" />
                                 <img src="./assets/Ellipse 12.png" alt="" style={{ width: "40px" }} />
                             </div>
