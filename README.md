@@ -21,20 +21,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './components/Login/Login';
 import Main from './components/Main/Main';
 
-function App() {
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Main />} />
-          <Route path='/sign-in' element={<Login />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </>
-  );
-}
-
-export default App;
+https://github.com/vishwkant0693/hobbycue/assets/62985421/8e27f32b-941a-4c98-84cf-34cfd65a2c5e
 
 
