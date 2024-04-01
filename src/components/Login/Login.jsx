@@ -22,20 +22,20 @@ const Login = () => {
                             <button className='btn sign'>Join In</button>
                         </div>
                         <div className="d-flex flex-column gap-2 py-3">
-                            <a type="button" class="btn btn-outline-info">
+                            <button type="button" class="btn btn-outline-info">
                                 <div className=" d-flex justify-content-around pt-3">
 
                                     <img src="./assets/Google.png" alt="" width={20} height={20} />
                                     <p>Continue with Google</p>
                                 </div>
-                            </a>
-                            <a type="button" class="btn btn-outline-info">
+                            </button>
+                            <button type="button" class="btn btn-outline-info">
                                 <div className=" d-flex justify-content-around pt-3">
 
                                     <img src="./assets/fb.png" alt="" width={20} height={20} />
                                     <p>Continue with Facebook</p>
                                 </div>
-                            </a>
+                            </button>
                         </div>
                         <div class="divider d-flex align-items-center my-4">
                             <p class="text-center fw-bold mx-3 mb-0">Or Connect with</p>
@@ -66,7 +66,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
-            <button className="position-fixed backtotop" href='/'><a href="">^</a></button>
+            <a href="/" className="position-fixed backtotop">^</a>
             <div className="container mt-5">
                 <div className="row">
                     <div class="col-md-6">
@@ -75,7 +75,7 @@ const Login = () => {
                                 <div className="btn text-start p-4">
                                     <h2 ><img src="./assets/groups.png" alt="" /> People</h2>
                                     <p>An Individual or Organization.  Teacher, Coach, Professional or Online Seller.  Company, Business or Association.</p>
-                                    <a className="btn cards card1" href="">Connect</a>
+                                    <a className="btn cards card1" href="/">Connect</a>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const Login = () => {
                                 <div className="btn text-start p-4">
                                     <h2 ><img src="./assets/location.png" alt="" /> Place</h2>
                                     <p>An Address.  Classroom, Shop, Performance or Event Venue, Sports Arena, Play Area, Studio, School or Campus.</p>
-                                    <a className="btn cards card2" href="">Meet Up</a>
+                                    <a className="btn cards card2" href="/">Meet Up</a>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ const Login = () => {
                                 <div className="btn text-start p-4">
                                     <h2 ><img src="./assets/shopping.png" alt="" /> Product</h2>
                                     <p>An Item that you can Book, Buy or Rent.  Appointment, Ticket, or Voucher.  Equipment, Instrument or Activity Kit.</p>
-                                    <a className="btn cards card3" href="">Get In</a>
+                                    <a className="btn cards card3" href="/">Get In</a>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ const Login = () => {
                                 <div className="btn text-start p-4">
                                     <h2 className='d-flex align-items-center' ><img src="./assets/event.png" alt="" /> Program</h2>
                                     <p>An Event with Venue and Date.  Meetup, Workshop or Webinar.  Exhibition, Performance or Competition.</p>
-                                    <a className="btn cards card4" href="">Attend</a>
+                                    <a className="btn cards card4" href="/">Attend</a>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const Login = () => {
                                 <h2>Add Your Own</h2>
                             </div>
                             <p>Are you a teacher or expert?  Do you sell or rent out equipment, venue or event tickets?  Or, you know someone who should be on hobbycue?  Go ahead and Add your Own page</p>
-                            <a className='btn cards card1'>Attend</a>
+                            <button className='btn cards card1'>Attend</button>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ const Login = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-md-8">
                             <div className="d-flex mt-3 align-items-center gap-3 p-4" style={{ background: "#CCC1DA" }}>
-                                <a><img src="./assets/play.png" alt="" /></a>
+                                <button><img src="./assets/play.png" alt="" /></button>
                                 <input type="range" class="form-range" id="Range" />
                                 <img src="./assets/Ellipse 12.png" alt="" style={{ width: "40px" }} />
                             </div>
@@ -157,7 +157,7 @@ const Login = () => {
             </div>
             <div className="container mt-5">
                 <h1 className='py-5'>Your <span style={{ color: "#8064A2" }} >hobby</span>, your <span style={{ color: "#0096C8" }}>Community</span></h1>
-                <a className='btn btn-secondary'>Get Started</a>
+                <button className='btn btn-secondary'>Get Started</button>
                 <div className="row mt-5">
                     <div className="d-flex">
                         <img src="./assets/5821.png" alt="" className='images1' />
