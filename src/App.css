@@ -128,10 +128,6 @@ background: #eee;
   border-bottom-color: #8064A2;
   color: #8064A2;
 }
-.form-control {
-  display: block;
-}
-
 
 .social {
   background: #8064A2;
@@ -140,7 +136,7 @@ background: #eee;
 }
 
 @media screen and (max-width:990px) {
-  .form-control {
+  .input-group {
     display: none;
   }
   .cards {
